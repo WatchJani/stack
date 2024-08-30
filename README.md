@@ -46,7 +46,7 @@ package main
 import (
     "fmt"
     "log"
-    "github.com/yourusername/go-stack-implementation/stack"
+    "github.com/WatchJani/stack"
 )
 
 func main() {
