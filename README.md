@@ -27,7 +27,6 @@ This repository contains a custom implementation of the stack data structure usi
 
     ```bash
     git clone https://github.com/WatchJani/stack.git
-    cd go-stack-implementation
     ```
 
 2. Run tests to ensure everything is working:
