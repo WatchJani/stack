@@ -26,7 +26,7 @@ This repository contains a custom implementation of the stack data structure usi
 1. Clone the repository:
 
     ```bash
-    git clone [https://github.com/yourusername/go-stack-implementation.git](https://github.com/WatchJani/stack.git)
+    git clone https://github.com/WatchJani/stack.git
     cd go-stack-implementation
     ```
 
