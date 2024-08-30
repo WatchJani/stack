@@ -26,7 +26,7 @@ This repository contains a custom implementation of the stack data structure usi
 1. To install the package, use go get:
 
     ```bash
-    go get github.com/WatchJani/stack@v1.0.0
+    go get github.com/WatchJani/stack@v1.0.1
     ```
 
 2. Run tests to ensure everything is working:
