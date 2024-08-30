@@ -70,3 +70,24 @@ func main() {
     fmt.Println("Is stack empty?", s.IsEmpty())
 }
 ```
+
+## API Reference
+
+- **Push(item int)**: Adds an item to the top of the stack.
+- **Pop() (int, error)**: Removes and returns the item from the top of the stack. Returns an error if the stack is empty.
+- **Peek() (int, error)**: Returns the item from the top of the stack without removing it. Returns an error if the stack is empty.
+- **IsEmpty() bool**: Checks if the stack is empty.
+
+## Contributing
+
+Contributions are welcome! If you have any ideas, feel free to fork the repo and submit a pull request.
+
+1. **Fork the Project**
+2. **Create your Feature Branch** (`git checkout -b feature/AmazingFeature`)
+3. **Commit your Changes** (`git commit -m 'Add some AmazingFeature'`)
+4. **Push to the Branch** (`git push origin feature/AmazingFeature`)
+5. **Open a Pull Request**
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
