@@ -6,25 +6,25 @@ import (
 
 const errEmpty = "stack is empty"
 
-type Stack[T any] struct {
+type stack[T any] struct {
 	store []T
 }
 
-func New[T any](capacity int) Stack[T] {
-	return Stack[T]{
+func New[T any](capacity int) stack[T] {
+	return stack[T]{
 		store: make([]T, 0, capacity),
 	}
 }
 
-func (s *Stack[T]) Push(value T) {
+func (s *stack[T]) Push(value T) {
 	s.store = append(s.store, value)
 }
 
-func (s *Stack[T]) Clear() {
+func (s *stack[T]) Clear() {
 	s.store = s.store[:0]
 }
 
-func (s *Stack[T]) Pop() (T, error) {
+func (s *stack[T]) Pop() (T, error) {
 	if len(s.store) == 0 {
 		var zeroValue T
 		return zeroValue, fmt.Errorf("%s", errEmpty)
@@ -34,11 +34,11 @@ func (s *Stack[T]) Pop() (T, error) {
 	return value, nil
 }
 
-func (s *Stack[T]) IsEmpty() bool {
+func (s *stack[T]) IsEmpty() bool {
 	return len(s.store) == 0
 }
 
-func (s *Stack[T]) Peek() (T, error) {
+func (s *stack[T]) Peek() (T, error) {
 	if len(s.store) == 0 {
 		var zeroValue T
 		return zeroValue, fmt.Errorf("%s", errEmpty)
