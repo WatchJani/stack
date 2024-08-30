@@ -23,10 +23,10 @@ This repository contains a custom implementation of the stack data structure usi
 
 ### Installation
 
-1. Clone the repository:
+1. To install the package, use go get:
 
     ```bash
-    git clone https://github.com/WatchJani/stack.git
+    go get github.com/WatchJani/stack.git
     ```
 
 2. Run tests to ensure everything is working:
